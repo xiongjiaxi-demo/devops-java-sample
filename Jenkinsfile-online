@@ -10,7 +10,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = '1290974241414391'
+        DOCKER_CREDENTIAL_ID = 'LTAI5tS1zFk1VwTbZHffYpUr'
         GITHUB_CREDENTIAL_ID = 'xiongjiaxi-demmo'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = 'registry.docker-cn.com'
