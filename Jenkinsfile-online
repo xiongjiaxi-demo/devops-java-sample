@@ -11,7 +11,7 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIAL_ID = 'local-harbor-rebot'
-        GITHUB_CREDENTIAL_ID = 'net-hub-token'
+        GITHUB_CREDENTIAL_ID = 'net-github'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = '192.168.9.171:30002'
         HARBOR_NAMESPACE = 'ks-devops-harbor'
