@@ -10,14 +10,14 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'local-harbor-rebot'
+        DOCKER_CREDENTIAL_ID = 'local-harbor'
         GITHUB_CREDENTIAL_ID = 'net-github'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = '192.168.9.171:30002'
         HARBOR_NAMESPACE = 'ks-devops-harbor'
         GITHUB_ACCOUNT = 'xiongjiaxi-demo'
         APP_NAME = 'devops-java-sample'
-        HARBOR_CREDENTIAL = credentials('local-harbor-rebot')
+        HARBOR_CREDENTIAL = credentials('local-harbor')
     }
 
     stages {
